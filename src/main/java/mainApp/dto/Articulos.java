@@ -16,7 +16,7 @@ public class Articulos {
 	
 	@ManyToOne
 	@JoinColumn(name="fabricante")
-	private Fabricantes fabricante;
+	Fabricantes fabricante;
 
 	public Articulos() {
 		

@@ -18,7 +18,7 @@ public class Fabricantes {
 	private String nombre;
 	
 	@OneToMany
-	@JoinColumn(name="codigo")
+	@JoinColumn(name="fabricante")
 	private List<Articulos> articulo;
 
 	public Fabricantes() {
